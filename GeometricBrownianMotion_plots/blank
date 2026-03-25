@@ -1,1 +1,30 @@
+(tf_env) kelton@w134-87-181-049 stochasproject % /Users/kelton/tf_env/bin/python
+ /Users/kelton/stochasproject/main.py
+{'mse': 3.2615039626809064, 'mae': 1.5323868499178597, 'rmse': 1.8059634444475632, 'dir_acc': 0.502, 'mape': 22.948158132414157, 'bias': 0.10957216834266056, 'mean_error': 0.1095721683426607, 'var_ratio': 1.2865403422333966e-06}
+{'mse': 4.927030414611687, 'mae': 1.843226583338983, 'rmse': 2.219691513389121, 'dir_acc': 0.4975, 'mape': 29.750590756711244, 'bias': 0.7570953620260943, 'mean_error': 0.757095362026095, 'var_ratio': 0.07848215460581082}
+{'mse': 0.8055689521698665, 'mae': 0.6124999949946945, 'rmse': 0.8975349308911974, 'dir_acc': 0.2891445722861431, 'mape': 11.244540807063805, 'bias': 0.4832802561187693, 'mean_error': 0.48328025611876946, 'var_ratio': 0.5217326022846946}
+{'mse': 0.855720472038956, 'mae': 0.6375181148594015, 'rmse': 0.9250516050680394, 'dir_acc': 0.21682523785678517, 'mape': 11.678568646192518, 'bias': 0.509889789638927, 'mean_error': 0.5098897896389252, 'var_ratio': 0.5066535214408262}
+63/63 ━━━━━━━━━━━━━━━━━━━━ 0s 3ms/step 
+{'mse': 0.4740127810574789, 'mae': 0.5199931670686657, 'rmse': 0.6884858611892324, 'dir_acc': 0.5185185185185185, 'mape': 9.274763415050218, 'bias': 0.466466654407522, 'mean_error': 0.46646661886538254, 'var_ratio': 0.6274808406131934}
+/Users/kelton/tf_env/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:144: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+Epoch   1/10  train=0.02410  val=0.01447
+Epoch   2/10  train=0.01442  val=0.01434
+Epoch   4/10  train=0.01435  val=0.01453
+Epoch   6/10  train=0.01429  val=0.01452
+Epoch   8/10  train=0.01424  val=0.01437
+Epoch  10/10  train=0.01420  val=0.01429
 
+TCN training complete.
+2001 2001
+{'mse': 0.14745456701355925, 'mae': 0.3305257781163152, 'rmse': 0.38399813412770545, 'dir_acc': 0.529, 'mape': 5.557444021993032, 'bias': 0.29055222033601497, 'mean_error': 0.29055222033601513, 'var_ratio': 0.7852160674736088}
+Device : mps
+Config : lookback=64, horizon=16, d_model=64, layers=3, heads=4
+
+Trainable parameters: 155,280
+
+Epoch   1/5  train=0.07412  val=0.01818  lr=2.72e-04
+Epoch   5/5  train=0.01801  val=0.02406  lr=3.00e-06
+
+Training complete.
+{'mse': 0.494764578821154, 'mae': 0.5711333861785318, 'rmse': 0.7033950375295194, 'dir_acc': 0.5235, 'mape': 9.72193386279164, 'bias': 0.4143396360770419, 'mean_error': 0.4143396360770426, 'var_ratio': 0.5848849838284668}
